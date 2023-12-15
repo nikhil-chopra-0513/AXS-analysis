@@ -6,11 +6,11 @@ import plotly.express as px
 
 # Load AXS data
 # URL of the CSV file
-#data_url = 'https://github.com/nikhil-chopra-0513/AXS-analysis/blob/main/AXS%20Token/axs_price_data%20(1).csv'
+data_url = 'https://github.com/nikhil-chopra-0513/AXS-analysis/blob/main/AXS%20Token/axs_price_data%20(1).csv'
 
 # Load data from the CSV file
-#axs_data = pd.read_csv(data_url)
-axs_data = pd.read_csv('AXS Token\\axs_price_data (1).csv')
+axs_data = pd.read_csv(data_url)
+
 
 
 # Function to display overview
