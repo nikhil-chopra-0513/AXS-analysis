@@ -5,7 +5,12 @@ import seaborn as sns
 import plotly.express as px
 
 # Load AXS data
-axs_data = pd.read_csv('C:\\Users\\NIKHIL CHOPRA\\Desktop\\AXS Token\\axs_price_data (1).csv')
+# URL of the CSV file
+data_url = 'https://drive.google.com/file/d/11jAQiQUFHdDY_2zRk71RalDJpJrgmqve/view?usp=drive_link'
+
+# Load data from the CSV file
+axs_data = pd.read_csv(data_url)
+
 
 # Function to display overview
 def display_overview():
